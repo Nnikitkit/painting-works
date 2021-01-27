@@ -26,3 +26,6 @@ main {
 body {
 
 }
+.shown {
+  display: inline-block;
+}
