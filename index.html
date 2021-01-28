@@ -2,10 +2,10 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Наименование фирмы - ремонт квартир под ключ в СПб</title>
+    <title>Lukin Stroy - ремонт квартир под ключ в СПб</title>
     <link rel="shortcut icon" href="оформление/логотип временный.png" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> <!--  подключил гугловские шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> <!--  подключил гугловские шрифты -->
     <meta name="keywords" content="*ремонт квартир, малярные работы, санкт-петербург"> <!--  ключевые слова для поисковика -->
     <meta name="description" content="Ремонт квартир под ключ любой сложности в Санкт-Петербурге(например)"> <!--  краткое описание страницы для поисковика -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -14,7 +14,7 @@
   <body>
     <header class="site-header">
       <div>
-        <img class="site-logo" src="оформление/логотип временный.jpeg"> <!-- добавить логотип-->
+        <img class="site-logo-header" src="оформление/логотип временный.jpeg"> <!-- добавить логотип-->
         </div>
       <nav> 
         <ul class="navigation-list-header">
@@ -22,22 +22,24 @@
           <li><a href="#2section">Механизированные малярные работы</a></li>
           <li><a href="#3section">Наши работы</a></li>
           <li><a href="#4section">О нас</a></li>
-          <li><a href="#5section">Контакты</a></li> 
         </ul>
       </nav>
       <div class="contacts-header">
-        <p>Контакты</p>
-        <br><p><a href="mailto:riderr_1994@mail.ru">riderr_1994@mail.ru</a></p>
-        <br><p><a href="tel:+79213120160">+7(921)312-01-60</a></p>
+        <div>  
+          <div class="contacts-name">Контакты</div>
+          <div class="phone-number"><a href="tel:+79213120160">+7(921)312-01-60</a></div>
+          <div class="mail"><a href="mailto:riderr_1994@mail.ru">riderr_1994@mail.ru</a></div>
+          
+          </div>
         <div class="contacts-social">
           <div>
-            <p><a href="https://teleg.run/sofiatheconqueror" target="blank"><img src="оформление/телеграм.png" alt="Написать нам в Телеграм"></a></p>
+            <a href="https://teleg.run/sofiatheconqueror" target="blank"><img src="оформление/telegram.svg" alt="Написать нам в Телеграм"></a>
             </div>
           <div>
-            <p><a href="https://wa.me/79213120160" target="blank"><img src="оформление/вотсап.png" alt="Написать нам в Вотсап"></a></p>
+            <a href="https://wa.me/79213120160" target="blank"><img src="оформление/whatsapp.svg" alt="Написать нам в Вотсап"></a>
             </div>
           <div>
-            <p><a href="https://www.instagram.com/mini.mir.spb/" target="blank"><img src="оформление/Инстаграм.png" alt="Наш Инстаграм"></a></p>
+            <a href="https://www.instagram.com/mini.mir.spb/" target="blank"><img src="оформление/instagram.svg" alt="Наш Инстаграм"></a>
             </div>
           </div>
           <!-- иконки можно заменить на более красивые-->
@@ -52,11 +54,11 @@
         <h2 id="1section">Ремонт квартир</h2>
         *вставить текст и фотки
         </section>
-      <section>
+      <section >
         <h2 id="2section">Механизированные малярные работы</h2>
         *вставить текст и фотки*
         <div>
-          <img src="оформление/пример/Механизированные малярные работы/1.jpeg">
+          <img src="оформление/пример/Механизированные малярные работы/1.jpeg" style=" width:300px ">
           </div>    
         </section>
       <section>
@@ -78,7 +80,7 @@
         <h2 id="4section">О нас</h2>
         *вставить текст*
         <div>
-          <img src="оформление/пример/о нас/мы.jpeg">
+          <img src="оформление/пример/о нас/мы.jpeg" style=" width:300px ">
           </div>
         </section>
       <section>
@@ -86,17 +88,18 @@
         *Скопировать с хэдера*
         </section>
       <aside>
-        <button class="up-button" type="button">
-          ↑
-          </button>
+        <img src="оформление/up-arrow.svg" class="up-button" type="button" alt="Кнопка наверх">
         </aside>
     </main>
     <footer>
       <div class="site-footer">
-       *вставить логотип и название компании*
-      </div> 
-      <div>
-        <p>@Nnikitkit 2021</p>
+        <div>
+          <img class="site-logo-footer" src="оформление/логотип временный.jpeg"> <!-- добавить логотип-->
+          </div>
+       © Lukin Stroy – строительно-ремонтная компания в Санкт-Петербурге, 20** - 2021
+        <div> 
+          <a href="">Сайт разработан @Nnikitkit 2021</a> <!-- дать ссылку на себя-->
+          </div>
       </div>
     </footer>
     <script src="up-button.js"></script>

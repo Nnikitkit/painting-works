@@ -12,9 +12,13 @@ main {
 	width: 80% ;
 	margin-right: auto;
 	margin-left: auto;
+	color: #172127;
 }
-.site-logo {
-width: 150px;
+.site-logo-header {
+width: 100px;
+}
+.site-logo-footer {
+width: 100px;
 }
 .site-header {
 	display: flex;
@@ -26,41 +30,66 @@ width: 150px;
 }
 .site-header div,
 .site-header nav {
-	border: 1px solid black;
+	
 }
 .navigation-list-header {
   display: flex;
   padding: 0 20px;
-  margin: 0 50px;
+  margin: 0 0px;
   list-style: none;
 
 }
 .navigation-list-header li {
-	padding: 35px 30px;
-	font-size: 20px ;
+	padding: 20px 15px;
+	font-size: 16px ;
 }
-
+.contacts-name {
+	font-weight: 600;
+	margin-top: 5px;
+}
+.phone-number {
+	color: white;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.mail {
+	margin: 5px 0;
+}
 .contacts-header img {
-	width: 50px;
-	padding: 0 5px;
+	width: 30px;
 }
 .contacts-social {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5px 0;
 }
 a {
 	text-decoration: none;
 	color: inherit;
 }
+footer {
+	color: #C8DBE7;
+	background-color: #2D404C;
+	margin: 0;
+}
+.site-footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 .up-button {
   position: fixed;
   z-index: 1;
   padding: 0;
-  bottom: 75px;
-  right: 20px;
+  bottom: 50px;
+  right: 30px;
   width: 64px;
   height: 64px;
   display: none;
+  color: #DFB48B;
 }
 .shown {
   display: inline-block;
