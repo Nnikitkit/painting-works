@@ -3,15 +3,24 @@ html {
 }
 body {
 	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+header, footer {
+	width: 100% ;
+}
+main {
+	width: 80% ;
+	margin-right: auto;
+	margin-left: auto;
 }
 .site-logo {
-width: 200px;
+width: 150px;
 }
 .site-header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	max-height: ;
+	max-height: auto;
 	background-color: rgb(28, 39, 46);
 	color: #DFB48B;
 }
@@ -26,8 +35,14 @@ width: 200px;
   list-style: none;
 
 }
+.navigation-list-header li {
+	padding: 35px 30px;
+	font-size: 20px ;
+}
+
 .contacts-header img {
 	width: 50px;
+	padding: 0 5px;
 }
 .contacts-social {
 	display: flex;
@@ -49,4 +64,12 @@ a {
 }
 .shown {
   display: inline-block;
+}
+.picture-of-work {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px 20px;
+}
+.picture-of-work img{
+	max-width: 100%;
 }
